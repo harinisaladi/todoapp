@@ -3,7 +3,7 @@ require 'rvm/capistrano'
 
 set :application, "todoapp"
 set :repository,  "git@github.com:harinisaladi/todoapp.git"
-set :rvm_ruby_string, "ruby-2.0.0p247@default"
+#set :rvm_ruby_string, :local
 #set :deploy_to, "/var/www/todoapp.com"
 set :scm, :git
 set :branch, "master"
