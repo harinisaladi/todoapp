@@ -13,6 +13,8 @@ set :rails_env, "production"
 set :deploy_via, :copy
 set :ssh_options, :forward_agent => true
 set :keep_releases, 3
+set :bundle_flags,    ""
+
 default_run_options[:pty] = true
 server "ec2-54-193-11-158.us-west-1.compute.amazonaws.com", :app, :web, :db, :primary => true
 
