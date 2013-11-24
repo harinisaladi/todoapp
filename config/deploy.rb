@@ -28,6 +28,5 @@ namespace :deploy do
   end
 end
 
-after "deploy", "deploy:symlink_config_files"
 after "deploy", "deploy:restart"
 after "deploy", "deploy:cleanup"
