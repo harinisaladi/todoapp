@@ -35,7 +35,7 @@ production:
   encoding: utf8
   database: todoapp_production
   pool: 5
-  username: root
-  password: root
+  username: ec2-user
+  password: ec2user
   host: localhost
   socket: /var/lib/mysql/mysql.sock
