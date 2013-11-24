@@ -2,7 +2,8 @@ require 'bundler/capistrano'
 
 set :application, "todoapp"
 set :repository,  "git@github.com:harinisaladi/todoapp.git"
-set #:deploy_to, "/var/www/todoapp.com"
+set :rvm_ruby_string, "2.0.0"
+#set :deploy_to, "/var/www/todoapp.com"
 set :scm, :git
 set :branch, "master"
 set :user, "ec2-user"
